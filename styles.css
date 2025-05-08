@@ -1,0 +1,39 @@
+li{
+    color:red;
+    list-style: none;
+}
+
+#head-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-ul{
+    display: flex;
+    gap:20px
+}
+
+#search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-container{
+    margin-top: 100px;
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.item p{
+    text-align: center;
+}
+    /* .item{
+        width
+    } */
+
+footer p{
+    text-align: center;
+    font-size: 1.2rem;
+}
